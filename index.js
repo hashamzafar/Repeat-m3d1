@@ -198,6 +198,7 @@ const funcEx16 = ()=>{
 
 // Create a function to calculate the sum of the two given integers, If the sum is in the range 50..80 return 65 other wise return 80.
 
+
 // 18)
 
 // Create a function to convert a number to a string, the contents of which depend on the number's factors. Follow next example:
@@ -213,6 +214,16 @@ const funcEx16 = ()=>{
 // this would be a "DiegoRiccardo".
 // 34 has four factors: 1, 2, 17, and 34.
 // this would be "34".
+const fancEx18 =(num)=>{
+    let string =''
+    
+    if ( num% 3 === 0) string += 'Diego'
+    if ( num% 5 === 0) string += 'Riccardo'
+    if ( num% 7 === 0) string += 'Stefano'
+    return 'non of them'
+}
+
+
 
 // 19)
 // Create a function that given a phrase returns its acronym, like British Broadcasting Corporation returns BBC
