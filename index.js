@@ -36,7 +36,7 @@ console.log(number(26+25))
 Create a function to remove a character at the specified position of a given string and return the new string.
 */
 const character = (str,pos) =>{
-    return  (str.slice(0, pos) +str.slice(pos +1)
+    return  (str.slice(0, pos) + str.slice(pos +1)
     )
  
 }
@@ -114,10 +114,10 @@ const test =(...argument)=>{
 
 
 
-10)
+// 10)
 
 // Create a function to test whether an array of integers of length 2 does not contain 1 or a 3
-const funcEx10 + (argument => !test(argument))
+const funcEx10 = (argument => !test(argument))
 
 
 
@@ -126,7 +126,7 @@ const funcEx10 + (argument => !test(argument))
 
 // Create a function to find the longest string from a given array of strings.
 
-const fancEx11 = (...arr){
+const fancEx11 = (...arr)=>{
     let lenghtArr = []
     arr.forEach((str)=>lenghtArr.push(str.lenth))
     let max = Math.max(...lenghtArr)
@@ -147,7 +147,7 @@ const fancEx11 = (...arr){
 const fancEx12 = ()=>{
     angle < 90? "acute" : angle === 90
     ? "right"
-    :angle > 90 && angle < 189? "abtuse
+    :angle > 90 && angle < 189? "abtuse"
     :angle === 180
     ? "straignt":false 
 }
@@ -198,6 +198,13 @@ const funcEx16 = ()=>{
 
 // Create a function to calculate the sum of the two given integers, If the sum is in the range 50..80 return 65 other wise return 80.
 
+const funcEx17 = (n1, n2)=> n1+n2 >= 50 && n1+n2 <= 80 ? 65:80
+    
+   
+console.log(funcEx17(9,3))
+
+
+
 
 // 18)
 
@@ -227,4 +234,4 @@ const fancEx18 =(num)=>{
 
 // 19)
 // Create a function that given a phrase returns its acronym, like British Broadcasting Corporation returns BBC
-
+const 
